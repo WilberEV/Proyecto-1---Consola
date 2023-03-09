@@ -1,0 +1,152 @@
+body {
+    margin: auto;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: blueviolet;
+}
+
+/* Joycon izquierdo */
+
+#left {
+    width: 9.9em;
+    height: 30.6em;
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+    #ltop{
+        width: 9.9em;
+        height: 6em;
+
+        display: flex;
+        flex-direction: row;
+    }
+        #ltop1{
+            width: 6em;
+            height: 6em;
+            border-radius: 75% 0% 0% 0%;
+            background-color: blue
+        }
+        #ltop2{
+            width: 3.9em;
+            height: 6em;
+            background-color: blue
+        }
+
+    #lmedio{
+        width: 9.9em;
+        height: 18.6em;
+        background-color: blue;
+    }
+
+    #lbottom{
+        display: flex;
+        flex-direction: row;
+
+        width: 9.9em;
+        height: 6em;
+
+    }
+        #lbottom1{
+            width: 6em;
+            height: 6em;
+            border-radius: 0% 0% 0% 75%;
+            background-color: blue
+        }
+        #lbottom2{
+            width: 3.9em;
+            height: 6em;
+            background-color: blue
+        }
+
+/* Pantalla */
+
+#center {
+    width: 51.9em;
+    height: 30.6em;
+    background-color: darkslategrey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #border {
+        width: 49em;
+        height: 28em;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #screen {
+            width: 42em;
+            height: 24em;
+            background-color: white;
+        }
+
+/* Joycon derecho */
+
+#right {
+    width: 9.9em;
+    height: 30.6em;
+
+
+    display: flex;
+    flex-direction: column;
+
+}
+    #rtop{
+        width: 9.9em;
+        height: 6em;
+
+        display: flex;
+        flex-direction: row;
+    }
+        #rtop1{
+            width: 3.9em;
+            height: 6em;
+            background-color: red;
+        }
+        #rtop2{
+            width: 6em;
+            height: 6em;
+            border-radius: 0% 75% 0% 0%;
+            background-color: red;
+        }
+
+    #rmedio{
+        width: 9.9em;
+        height: 18.6em;
+        background-color: red;
+    }
+
+    #rbottom{
+        display: flex;
+        flex-direction: row;
+
+        width: 9.9em;
+        height: 6em;
+
+    }
+        #rbottom1{
+            width: 3.9em;
+            height: 6em;
+            background-color: red;
+        }
+        #rbottom2{
+            width: 6em;
+            height: 6em;
+            border-radius: 0% 0% 75% 0%;
+            background-color: red;
+        }
