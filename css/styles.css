@@ -36,18 +36,18 @@ body {
             width: 6em;
             height: 6em;
             border-radius: 75% 0% 0% 0%;
-            background-color: blue
+            background-color: #02C4E7
         }
         #ltop2{
             width: 3.9em;
             height: 6em;
-            background-color: blue
+            background-color: #02C4E7
         }
 
     #lmedio{
         width: 9.9em;
         height: 18.6em;
-        background-color: blue;
+        background-color: #02C4E7;
     }
 
     #lbottom{
@@ -62,12 +62,12 @@ body {
             width: 6em;
             height: 6em;
             border-radius: 0% 0% 0% 75%;
-            background-color: blue
+            background-color: #02C4E7
         }
         #lbottom2{
             width: 3.9em;
             height: 6em;
-            background-color: blue
+            background-color: #02C4E7
         }
 
 /* Pantalla */
@@ -75,7 +75,7 @@ body {
 #center {
     width: 51.9em;
     height: 30.6em;
-    background-color: darkslategrey;
+    background-color: #292F33;
 
     display: flex;
     justify-content: center;
@@ -116,19 +116,19 @@ body {
         #rtop1{
             width: 3.9em;
             height: 6em;
-            background-color: red;
+            background-color: #FD5E52;
         }
         #rtop2{
             width: 6em;
             height: 6em;
             border-radius: 0% 75% 0% 0%;
-            background-color: red;
+            background-color: #FD5E52;
         }
 
     #rmedio{
         width: 9.9em;
         height: 18.6em;
-        background-color: red;
+        background-color: #FD5E52;
     }
 
     #rbottom{
@@ -142,11 +142,11 @@ body {
         #rbottom1{
             width: 3.9em;
             height: 6em;
-            background-color: red;
+            background-color: #FD5E52;
         }
         #rbottom2{
             width: 6em;
             height: 6em;
             border-radius: 0% 0% 75% 0%;
-            background-color: red;
+            background-color: #FD5E52;
         }
