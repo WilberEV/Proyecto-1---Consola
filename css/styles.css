@@ -11,37 +11,66 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-color: blueviolet;
+    background-color: darkslategray;
+
 }
 
 /* Joycon izquierdo */
 
 #left {
     width: 9.9em;
-    height: 30.6em;
+    height: 31.6em;
 
 
     display: flex;
     flex-direction: column;
+    margin-bottom: 1em;
 
 }
+
     #ltop{
         width: 9.9em;
-        height: 6em;
+        height: 7.6em;
 
         display: flex;
         flex-direction: row;
+        align-items: flex-end;
+
     }
+        #ltrigger{
+            width: 9.3em;
+            height: 7em;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            position: absolute;
+            z-index: -1;
+
+        }
+            #ltrigger1{
+                width: 4.4em;
+                height: 3em;
+                border-radius: 90% 0% 0% 10%;
+                background-color: black;
+            }
+            #ltrigger2{
+                width: 3.9em;
+                height: 7em;
+                border-radius: 0% 10% 0% 0%;
+                background-color: black;
+            }
         #ltop1{
             width: 6em;
-            height: 6em;
+            height: 6.6em;
             border-radius: 75% 0% 0% 0%;
-            background-color: #02C4E7
+            background-color: #FC5000;
         }
         #ltop2{
             width: 3.9em;
-            height: 6em;
-            background-color: #02C4E7;
+            height: 6.6em;
+            background-color: #FC5000;
 
             display: flex;        
             justify-content: center;
@@ -55,8 +84,8 @@ body {
 
     #lmedio{
         width: 9.9em;
-        height: 18.6em;
-        background-color: #02C4E7;
+        height: 18em;
+        background-color: #FC5000;
     }
 
     #lbottom{
@@ -71,12 +100,12 @@ body {
             width: 6em;
             height: 6em;
             border-radius: 0% 0% 0% 75%;
-            background-color: #02C4E7;
+            background-color: #FC5000;
         }
         #lbottom2{
             width: 3.9em;
             height: 6em;
-            background-color: #02C4E7;
+            background-color: #FC5000;
         }
 
 /* Pantalla */
@@ -108,24 +137,51 @@ body {
 
 #right {
     width: 9.9em;
-    height: 30.6em;
+    height: 31.6em;
 
 
     display: flex;
     flex-direction: column;
+    margin-bottom: 1em;
 
 }
     #rtop{
         width: 9.9em;
-        height: 6em;
+        height: 7.6em;
 
         display: flex;
         flex-direction: row;
+        align-items: flex-end;
+
     }
+        #rtrigger{
+            width: 9.3em;
+            height: 7em;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            position: absolute;
+            z-index: -1;
+
+        }
+            #rtrigger1{
+                width: 4.4em;
+                height: 3em;
+                border-radius: 0% 90% 10% 0%;
+                background-color: black;
+            }
+            #rtrigger2{
+                width: 3.9em;
+                height: 7em;
+                border-radius: 10% 0% 0% 0%;
+                background-color: black;
+            }
         #rtop1{
             width: 3.9em;
-            height: 6em;
-            background-color: #FD5E52;
+            height: 6.6em;
+            background-color: #60269E;
 
             display: flex;        
             justify-content: center;
@@ -149,15 +205,15 @@ body {
 
         #rtop2{
             width: 6em;
-            height: 6em;
+            height: 6.6em;
             border-radius: 0% 75% 0% 0%;
-            background-color: #FD5E52;
+            background-color: #60269E;
         }
 
     #rmedio{
         width: 9.9em;
         height: 18.6em;
-        background-color: #FD5E52;
+        background-color: #60269E;
     }
 
     #rbottom{
@@ -171,11 +227,11 @@ body {
         #rbottom1{
             width: 3.9em;
             height: 6em;
-            background-color: #FD5E52;
+            background-color: #60269E;
         }
         #rbottom2{
             width: 6em;
             height: 6em;
             border-radius: 0% 0% 75% 0%;
-            background-color: #FD5E52;
+            background-color: #60269E;
         }
