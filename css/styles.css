@@ -41,8 +41,17 @@ body {
         #ltop2{
             width: 3.9em;
             height: 6em;
-            background-color: #02C4E7
+            background-color: #02C4E7;
+
+            display: flex;        
+            justify-content: center;
+            align-items: center;
         }
+            #minus{
+                width: 1.8em;
+                height: 0.6em;
+                background-color: #292F33;
+            }
 
     #lmedio{
         width: 9.9em;
@@ -62,12 +71,12 @@ body {
             width: 6em;
             height: 6em;
             border-radius: 0% 0% 0% 75%;
-            background-color: #02C4E7
+            background-color: #02C4E7;
         }
         #lbottom2{
             width: 3.9em;
             height: 6em;
-            background-color: #02C4E7
+            background-color: #02C4E7;
         }
 
 /* Pantalla */
@@ -117,7 +126,27 @@ body {
             width: 3.9em;
             height: 6em;
             background-color: #FD5E52;
+
+            display: flex;        
+            justify-content: center;
+            align-items: center;
+            z-index:  0;
         }
+            #plus1{
+                width: 1.8em;
+                height: 0.6em;
+                background-color: #292F33;
+                z-index:  1;
+                position: absolute;
+            }
+            #plus2{
+                width: 0.6em;
+                height: 1.8em;
+                background-color: #292F33;
+                z-index:  2;
+
+            }
+
         #rtop2{
             width: 6em;
             height: 6em;
