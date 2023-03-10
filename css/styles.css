@@ -101,12 +101,15 @@ body {
     }
         #lshield{
             width: 4em;
-            height: 4em;
+            height: 5em;
             z-index:  1;
             position: absolute;
 
-            background-color: #292F33;
         }
+            #naranja{
+                width: 4em;
+                height: 5em;
+            }
         #lbottom1{
             width: 6em;
             height: 6em;
@@ -243,12 +246,15 @@ body {
     }
         #rshield{
             width: 4em;
-            height: 4em;
+            height: 5em;
             z-index:  1;
             position: absolute;
 
-            background-color: #292F33;
         }
+            #uva{
+                width: 4em;
+                height: 5em;
+            }
         #rbottom1{
             width: 3.9em;
             height: 6em;
