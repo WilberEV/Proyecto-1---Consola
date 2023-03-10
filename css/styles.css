@@ -92,20 +92,33 @@ body {
         display: flex;
         flex-direction: row;
 
+        justify-content: center;
+        align-items: flex-start;
         width: 9.9em;
         height: 6em;
+        z-index: 0;
 
     }
+        #lshield{
+            width: 4em;
+            height: 4em;
+            z-index:  1;
+            position: absolute;
+
+            background-color: #292F33;
+        }
         #lbottom1{
             width: 6em;
             height: 6em;
             border-radius: 0% 0% 0% 75%;
             background-color: #FC5000;
+            z-index: 0;
         }
         #lbottom2{
             width: 3.9em;
             height: 6em;
             background-color: #FC5000;
+            z-index: 0;
         }
 
 /* Pantalla */
@@ -159,8 +172,8 @@ body {
             height: 7em;
 
             display: flex;
-            flex-direction: row;
-            justify-content: center;
+            flex-direction: row-reverse;
+            justify-content: flex-start;
 
             position: absolute;
             z-index: -1;
@@ -212,7 +225,7 @@ body {
 
     #rmedio{
         width: 9.9em;
-        height: 18.6em;
+        height: 18em;
         background-color: #60269E;
     }
 
@@ -223,15 +236,29 @@ body {
         width: 9.9em;
         height: 6em;
 
+        align-items: flex-start;
+        justify-content: center;
+        z-index: 0;
+
     }
+        #rshield{
+            width: 4em;
+            height: 4em;
+            z-index:  1;
+            position: absolute;
+
+            background-color: #292F33;
+        }
         #rbottom1{
             width: 3.9em;
             height: 6em;
             background-color: #60269E;
+            z-index: 0;
         }
         #rbottom2{
             width: 6em;
             height: 6em;
             border-radius: 0% 0% 75% 0%;
             background-color: #60269E;
+            z-index: 0;
         }
