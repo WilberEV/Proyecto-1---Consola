@@ -86,8 +86,90 @@ body {
         width: 9.9em;
         height: 18em;
         background-color: #FC5000;
-    }
 
+        display: flex;
+        flex-direction: column;
+    }
+        #lmtop {
+            width: 9.9em;
+            height: 8em;
+            background-color: #FC5000;
+        }
+        #lmcenter{
+            width: 9.9em;
+            height: 6em;
+            background-color: #FC5000;
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+        }
+            #lmcenterUp{
+                width: 9.9em;
+                height: 2em;
+                background-color: #FC5000;
+
+                display: flex;
+
+                align-items: center;
+                justify-content: center;
+            }
+                #upB{
+                    width: 2em;
+                    height: 2em;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+            #lmcenterLR{
+                    width: 9.9em;
+                    height: 2em;
+                    background-color: #FC5000;
+    
+                    display: flex;
+    
+                    align-items: center;
+                    justify-content: space-evenly;
+            }
+                #leftB{
+                    width: 2em;
+                    height: 2em;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+                #rightB{
+                    width: 2em;
+                    height: 2em;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+            #lmcenterDown{
+                width: 9.9em;
+                height: 2em;
+                background-color: #FC5000;
+    
+                display: flex;
+    
+                align-items: center;
+                justify-content: center;
+            }
+                #downB{
+                    width: 2em;
+                    height: 2em;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+        #lmcenter2{
+            width: 9.9em;
+            height: 1em;
+            background-color: #FC5000;
+        }
+        #lmbottom{
+            width: 9.9em;
+            height: 3em;
+            background-color: #FC5000;
+        }
     #lbottom{
         display: flex;
         flex-direction: row;
