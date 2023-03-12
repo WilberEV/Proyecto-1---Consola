@@ -11,7 +11,7 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-color: darkslategray;
+    background-image: url('background.PNG');
 
 }
 
@@ -53,13 +53,13 @@ body {
                 width: 4.4em;
                 height: 3em;
                 border-radius: 90% 0% 0% 10%;
-                background-color: black;
+                background-color: #171a1b;
             }
             #ltrigger2{
                 width: 3.9em;
                 height: 7em;
                 border-radius: 0% 10% 0% 0%;
-                background-color: black;
+                background-color: #171a1b;
             }
         #ltop1{
             width: 6em;
@@ -325,12 +325,24 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        border-radius: 1.5%;
     }
         #screen {
             width: 42em;
             height: 24em;
-            background-color: white;
+            background-color: black;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+            #trustMe{
+                border: 1px solid black;
+                width: 42em;
+                height: 24em;
+                border-radius: 1.5%;
+            }
 
 /* Joycon derecho */
 
@@ -369,13 +381,13 @@ body {
                 width: 4.4em;
                 height: 3em;
                 border-radius: 0% 90% 10% 0%;
-                background-color: black;
+                background-color: #171a1b;
             }
             #rtrigger2{
                 width: 3.9em;
                 height: 7em;
                 border-radius: 10% 0% 0% 0%;
-                background-color: black;
+                background-color: #171a1b;
             }
         #rtop1{
             width: 3.9em;
@@ -440,7 +452,7 @@ body {
                     height: 2em;
                     background-color: #292F33;
                     border-radius: 50%;
-                    color: white;
+                    color: #707973;
 
                     display: flex;
                     align-items: center;
@@ -449,6 +461,9 @@ body {
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-weight: bold;
                 }
+                    #XButtom:hover{
+                        color: white;
+                    }
             #rmtopYA{
                     width: 9.9em;
                     height: 2em;
@@ -464,7 +479,7 @@ body {
                     height: 2em;
                     background-color: #292F33;
                     border-radius: 50%;
-                    color: white;
+                    color: #707973;
 
                     display: flex;
                     align-items: center;
@@ -473,12 +488,15 @@ body {
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-weight: bold;
                 }
+                    #YButtom:hover {
+                        color: white;
+                    }
                 #AButtom{
                     width: 2em;
                     height: 2em;
                     background-color: #292F33;
                     border-radius: 50%;
-                    color: white;
+                    color: #707973;
 
                     display: flex;
                     align-items: center;
@@ -487,6 +505,9 @@ body {
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-weight: bold;
                 }
+                    #AButtom:hover {
+                        color: white;
+                    }
             #rmtopB{
                 width: 9.9em;
                 height: 2em;
@@ -502,7 +523,7 @@ body {
                     height: 2em;
                     background-color: #292F33;
                     border-radius: 50%;
-                    color: white;
+                    color: #707973;
 
                     display: flex;
                     align-items: center;
@@ -511,6 +532,9 @@ body {
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     font-weight: bold;
                 }
+                    #BButtom:hover {
+                        color: white;
+                    }
     
         #rmcenter{
             width: 9.9em;
@@ -580,6 +604,11 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+            }
+            #homeB:hover{
+
+                background-color: white;
+
             }
                 #homeB2{
                     width: 1.6em;
