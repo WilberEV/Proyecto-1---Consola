@@ -6,6 +6,8 @@ El objetivo de este proyecto es recrear la imagen de una videoconsola, utilizand
 En el caso de este proyecto, he decidido recrear una Nintendo Switch,
 concretamente la version especial del Nintendo Switch OLED creada para los juegos de Pokemon Escarlata y Purpura.
 
+Pueden abrir el proyecto en Git Hub Pages con el siguiente [Enlace](https://wilberev.github.io/Proyecto-1---Consola/)
+
 ![alt](img/console.png)
 
 ## Secciones:
