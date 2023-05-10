@@ -6,6 +6,8 @@ El objetivo de este proyecto es recrear la imagen de una videoconsola, utilizand
 En el caso de este proyecto, he decidido recrear una Nintendo Switch,
 concretamente la version especial del Nintendo Switch OLED creada para los juegos de Pokemon Escarlata y Purpura.
 
+![alt](img/console.png)
+
 ## Secciones:
 
 La consola se ha dividido principalmente en tres secciones, los Joycon izquierdo y derecho, y la pantalla en el centro de la consola.\
